@@ -5,7 +5,7 @@
     <h3>Drivers:</h3>
     {% for driver in car.drivers.all%}
             <hr>
-            <p class="text-mutes">{{ driver.id }}</p>
+            <p class="text-muted">{{ driver.id }}</p>
             <p>{{ driver.first_name }} {{ driver.last_name }}</p>
         {% endfor %}  
 {% endblock content %}
